@@ -8,8 +8,10 @@ package br.edu.udesc.search;
  * Método de busca com algoritmo Aho-Corasick (trie)
  */
 public class SearchByAhoCorasickStrategy implements ISearchStrategy {
-	private final int ALPHABETIC_SIZE = 256;
-	node root = null;
+	private final int ALPHABETIC_SIZE = 65536;
+	private node root;
+	private int psize;
+	private char pfirst;
     
 	/**
 	 * Pesquisa o número de ocorrências de um padrão em um conteúdo usando Aho-Corasick
@@ -21,61 +23,72 @@ public class SearchByAhoCorasickStrategy implements ISearchStrategy {
      * @return O número de ocorrências de pattern em content
      */
 	public int searchFile(String content, String pattern) {
-		init(root);
-		insertWord(content);
-        return quantPrefix(pattern);
+		root = init();
+		inserePattern(pattern);
+        return quantificaOcorrencias(content);
 	}
 	
 	private class node {
 		boolean isEnd;
-		int prefixCount;
 		node[] child = new node[ALPHABETIC_SIZE];
 	}
 
-	void init(node nd){
-		nd = new node();
+	/**
+	 * Inicializa um nó da árvore Trie.
+	 * @return Um nó limpo com seus filhos.
+	 */
+	private node init(){
+		node nd = new node();
 		nd.isEnd = false;
-		nd.prefixCount = 0;
 		for(int i = 0; i < ALPHABETIC_SIZE; i++){
 			nd.child[i] = null;
 		}
+		return nd;
 	}
 
-	void insertWord(String word){
+	/**
+	 * Faz a criação da árvore Trie com o padrão de pesquisa.
+	 * @param pattern Padrão para pesquisa.
+	 */
+	void inserePattern(String pattern){
+		psize = pattern.length();
+		pfirst = pattern.charAt(0);
 		node current = root;
-		current.prefixCount++;
-		for(int i = 0; i < word.length(); i++){
-			int letter = (int)word.charAt(i) - (int)'a';
+		for(int i = 0; i < pattern.length(); i++){
+			int letter = (int)pattern.charAt(i);
 			if(current.child[letter] == null){
-				init(current.child[letter]);
+				current.child[letter] = init();
 			}
-			current.child[letter].prefixCount++;
 			current = current.child[letter];
 		}
 		current.isEnd = true;
 	}
 
-//	public boolean searchWord(String word){
-//		node current = root;
-//		for(int i = 0; i < word.length(); i++){
-//			int letter = word.charAt(i) - 'a';
-//			if(current.child[letter] == null){
-//				return false;
-//			}		
-//			current = current.child[letter];
-//		}
-//		return current.isEnd;
-//	}
-
-	int quantPrefix(String prefix){
+	/**
+	 * Faz a busca percorrendo a Trie e o content.
+	 * @param content O texto onde irá buscar o pattern.
+	 * @return O número de ocorrências.
+	 */
+	int quantificaOcorrencias(String content){
 		node current = root;
-		for(int i = 0; i < prefix.length(); i++){
-			int letter = prefix.charAt(i) - 'a';
-			if(current.child[letter] == null){
-				return 0;
-			}		
-			current = current.child[letter];
+		int count = 0;
+		for (int i = 0; i < content.length(); i++){
+			int letter = (int)content.charAt(i);
+			if (current.child[letter] != null)
+			{
+				current = current.child[letter];
+				if (current.isEnd)
+				{
+					count++;
+					if (letter == pfirst)
+					{
+						i -= psize; // Cobre caso de "ll" em "lllll".
+					}
+				}
+			}
+			else if (current.child[letter] == null)
+				current = root;
 		}
-		return current.prefixCount;
+		return count;
 	}
 }

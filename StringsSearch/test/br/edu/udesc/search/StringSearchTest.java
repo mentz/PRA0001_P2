@@ -9,7 +9,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -71,11 +70,11 @@ public class StringSearchTest {
 		
 		this.pattern[2][0] = "a";
 		this.pattern[2][1] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-		this.pattern[2][2] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
+		this.pattern[2][2] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"; //Tem 1
 		this.pattern[2][3] = "ab";
-		this.pattern[2][4] = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
+		this.pattern[2][4] = "b";
 		this.pattern[2][5] = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba";
-		this.pattern[2][6] = "naocasaemnenhumtexto";
+		this.pattern[2][6] = "abababababababababababababab";
 		
 		for(int i = 0, j; i < pattern.length; i++)
 			for(j = 0; j < pattern[i].length; j++)
@@ -95,7 +94,9 @@ public class StringSearchTest {
 			for(j = 0; j < pattern[i].length; j++)
 			{
 				found[i][j] = ctx.search(content[i], pattern[i][j]);
-				assertEquals(found[i][j], expected[i][j]);
+				if (found[i][j] != expected[i][j])
+					System.out.println("i=" + i + "\tj=" + j);
+				assertEquals(expected[i][j], found[i][j]);
 			}
 		}
 	}

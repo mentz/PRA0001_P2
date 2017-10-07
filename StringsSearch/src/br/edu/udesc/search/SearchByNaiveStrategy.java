@@ -1,13 +1,14 @@
 package br.edu.udesc.search;
 
 /**
- * Pesquisa usando o m�todo da for�a bruta (Naive)
+ * Pesquisa usando o método da força bruta (Naive)
  * @author udesc
  *
  */
 public class SearchByNaiveStrategy extends ASearchStrategy {
 	/**
-	 * Pesquisa o número de ocorrências de um padrão em um conteúdo usando método Naive.
+	 * Pesquisa o número de ocorrências de um padrão em um conteúdo usando método Naive
+	 * (força bruta).
 	 * 
 	 * @author Leo_e_Mentz
      * @param content O conteúdo onde vai pesquisar o pattern

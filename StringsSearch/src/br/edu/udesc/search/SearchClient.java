@@ -7,11 +7,11 @@ import java.io.IOException;
 
 public class SearchClient {
 	
-	private static final String WORD = ".";
+	private static final String WORD = "aaaaaaaaab";
 	private static String content;
 
 	static {
-		File   fi =  new File("resource/lipsum.txt");
+		File   fi =  new File("resource/aaaaaaaabbbbbbbb.txt");
 
 		try(FileReader     fr = new FileReader(fi);
 			BufferedReader br = new BufferedReader(fr) ) 
@@ -28,7 +28,7 @@ public class SearchClient {
 	}
 
 	private static final void showMsg(String algorithm, int found) {
-		System.out.println("Usando o algoritmo [" +algorithm + "] procurando por [" + WORD + "] encontrou " + found + " ocorrencias");
+		System.out.println("Usando o algoritmo [" + algorithm + "] procurando por [" + WORD + "] encontrou " + found + " ocorrencias");
 	}
 	
 	private static final void usarBoyerMoore() {
@@ -58,6 +58,13 @@ public class SearchClient {
 		int found = ctx.search(content, WORD);
 		showMsg("RabinKarp", found);
 	}
+	
+	private static final void usarAhoCorasick() {
+		SearchContext ctx = new SearchContext();
+		ctx.setSearchStrategy(new SearchByAhoCorasickStrategy());
+		int found = ctx.search(content, WORD);
+		showMsg("AhoCorasick", found);
+	}
 
 
 	/**
@@ -68,5 +75,6 @@ public class SearchClient {
 		usarNaive();
 		usarKMP();
 		usarRabinKarp();
+		usarAhoCorasick();
 	}
 }
