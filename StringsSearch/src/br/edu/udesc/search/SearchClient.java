@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class SearchClient {
 	
-	private static final String WORD = "aaaaaaaaab";
+	private static final String WORD = "a";
 	private static String content;
 
 	static {
@@ -71,8 +71,8 @@ public class SearchClient {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		usarBoyerMoore();
 		usarNaive();
+		usarBoyerMoore();
 		usarKMP();
 		usarRabinKarp();
 		usarAhoCorasick();

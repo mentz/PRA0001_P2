@@ -58,7 +58,7 @@ public class StringSearchTest {
 		this.pattern[0][3] = "O joãozinho é FEIOSO";
 		this.pattern[0][4] = "naocasa";
 		this.pattern[0][5] = ".";
-		this.pattern[0][6] = "Pellentesque ut purus pretium, placerat lacus non, venenatis odio. Sed nisl sem, congue in dolor sit amet, tincidunt sodales ex. Mauris cursus urna vel purus iaculis, at gravida lacus convallis. Quisque eget elit vehicula, feugiat tortor id, sagittis purus. Curabitur tincidunt venenatis enim sit amet interdum. Aenean at tempus quam. Morbi scelerisque, mauris quis faucibus dapibus, felis libero facilisis magna, eget rhoncus eros tellus a lectus. Mauris finibus, risus vel volutpat ornare, lectus metus condimentum est, vel scelerisque nunc velit id magna. Proin sed consequat diam. Donec rhoncus, orci vel malesuada volutpat, purus urna placerat enim, eu egestas ex erat sit amet tellus. In ullamcorper quam sollicitudin, fermentum ante a, vehicula leo. Suspendisse tortor velit, tincidunt non placerat quis, suscipit in purus. Donec quis congue velit, ut rhoncus lorem.";
+		this.pattern[0][6] = "Pellentesque ut purus pretium, placerat lacus non, venenatis odio. Sed nisl sem, congue in dolor sit amet, tincidunt sodales ex. Mauris cursus urna vel purus iaculis, at gravida lacus convallis. Quisque eget elit vehicula, feugiat tortor id, sagittis purus. Curabitur tincidunt venenatis enim sit amet interdum. Aenean at tempus quam. Morbi scelerisque, mauris quis faucibus dapibus, felis libero facilisis magna, eget rhoncus eros tellus a lectus. Mauris finibus, risus vel volutpat ornare, lectus metus condimentum est, vel scelerisque nunc velit id magna. Proin sed consequat diam. Donec rhoncus, orci vel malesuada volutpat, purus urna placerat enim, eu egestas ex erat sit amet tellus. In ullamcorper quam sollicitudin, fermentum ante a, vehicula leo. Suspendisse tortor velit, tincidunt non placerat quis, suscipit in purus. Donec quis congue velit, ut rhoncus loryeem.";
 
 		this.pattern[1][0] = "Lincoln";
 		this.pattern[1][1] = "But his standing before posterity will";
@@ -70,7 +70,7 @@ public class StringSearchTest {
 		
 		this.pattern[2][0] = "a";
 		this.pattern[2][1] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-		this.pattern[2][2] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"; //Tem 1
+		this.pattern[2][2] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
 		this.pattern[2][3] = "ab";
 		this.pattern[2][4] = "b";
 		this.pattern[2][5] = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba";
@@ -94,8 +94,6 @@ public class StringSearchTest {
 			for(j = 0; j < pattern[i].length; j++)
 			{
 				found[i][j] = ctx.search(content[i], pattern[i][j]);
-				if (found[i][j] != expected[i][j])
-					System.out.println("i=" + i + "\tj=" + j);
 				assertEquals(expected[i][j], found[i][j]);
 			}
 		}

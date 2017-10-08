@@ -25,7 +25,7 @@ public class SearchByBoyerMooreStrategy extends ASearchStrategy {
                     break;
                 }
             }
-            // i += needle.length - j; // For naive method
+
             i += Math.max(offsetTable[pattern.length() - 1 - j], charTable[content.charAt(i)]);
         }
         return count;

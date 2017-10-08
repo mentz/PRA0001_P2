@@ -7,8 +7,8 @@ package br.edu.udesc.search;
  * @author Leo_e_Mentz
  * Método de busca com algoritmo Aho-Corasick (trie)
  */
-public class SearchByAhoCorasickStrategy implements ISearchStrategy {
-	private final int ALPHABETIC_SIZE = 65536;
+public class SearchByAhoCorasickStrategy extends ASearchStrategy {
+	private final int ALPHABETIC_SIZE = 256;
 	private node root;
 	private int psize;
 	private char pfirst;
@@ -47,7 +47,7 @@ public class SearchByAhoCorasickStrategy implements ISearchStrategy {
 	}
 
 	/**
-	 * Faz a criação da árvore Trie com o padrão de pesquisa.
+	 * Faz a criação da árvore Trie com somente o padrão de pesquisa.
 	 * @param pattern Padrão para pesquisa.
 	 */
 	void inserePattern(String pattern){
@@ -71,9 +71,10 @@ public class SearchByAhoCorasickStrategy implements ISearchStrategy {
 	 */
 	int quantificaOcorrencias(String content){
 		node current = root;
-		int count = 0;
+		int count = 0, e = 0;
 		for (int i = 0; i < content.length(); i++){
 			int letter = (int)content.charAt(i);
+			e++;
 			if (current.child[letter] != null)
 			{
 				current = current.child[letter];
@@ -81,13 +82,16 @@ public class SearchByAhoCorasickStrategy implements ISearchStrategy {
 				{
 					count++;
 					if (letter == pfirst)
-					{
-						i -= psize; // Cobre caso de "ll" em "lllll".
-					}
+					i -= psize; // Cobre caso de "ll" em "lllll".
+					e = 0;
 				}
 			}
 			else if (current.child[letter] == null)
+			{
 				current = root;
+				i -= (e - 1); // Cobre caso de "llb" em "lllllb".
+				e = 0;
+			}
 		}
 		return count;
 	}
