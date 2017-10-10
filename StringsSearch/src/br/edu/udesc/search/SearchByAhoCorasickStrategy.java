@@ -3,15 +3,15 @@
  */
 package br.edu.udesc.search;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author Leo_e_Mentz
  * Método de busca com algoritmo Aho-Corasick (trie)
  */
 public class SearchByAhoCorasickStrategy extends ASearchStrategy {
-	private final int ALPHABETIC_SIZE = 256;
 	private node root;
-	private int psize;
-	private char pfirst;
     
 	/**
 	 * Pesquisa o número de ocorrências de um padrão em um conteúdo usando Aho-Corasick
@@ -30,7 +30,8 @@ public class SearchByAhoCorasickStrategy extends ASearchStrategy {
 	
 	private class node {
 		boolean isEnd;
-		node[] child = new node[ALPHABETIC_SIZE];
+		Map<Integer, node> child;
+		int depth = -1;
 	}
 
 	/**
@@ -40,9 +41,9 @@ public class SearchByAhoCorasickStrategy extends ASearchStrategy {
 	private node init(){
 		node nd = new node();
 		nd.isEnd = false;
-		for(int i = 0; i < ALPHABETIC_SIZE; i++){
-			nd.child[i] = null;
-		}
+		nd.depth = 0;
+		nd.child = new HashMap<Integer, node>();
+		
 		return nd;
 	}
 
@@ -51,15 +52,15 @@ public class SearchByAhoCorasickStrategy extends ASearchStrategy {
 	 * @param pattern Padrão para pesquisa.
 	 */
 	void inserePattern(String pattern){
-		psize = pattern.length();
-		pfirst = pattern.charAt(0);
+		int d = 0;
 		node current = root;
 		for(int i = 0; i < pattern.length(); i++){
 			int letter = (int)pattern.charAt(i);
-			if(current.child[letter] == null){
-				current.child[letter] = init();
+			if(current.child.containsKey(letter) == false){
+				current.child.put(letter, init());
 			}
-			current = current.child[letter];
+			current = current.child.get(letter);
+			current.depth = d;
 		}
 		current.isEnd = true;
 	}
@@ -71,26 +72,22 @@ public class SearchByAhoCorasickStrategy extends ASearchStrategy {
 	 */
 	int quantificaOcorrencias(String content){
 		node current = root;
-		int count = 0, e = 0;
+		int count = 0;
 		for (int i = 0; i < content.length(); i++){
 			int letter = (int)content.charAt(i);
-			e++;
-			if (current.child[letter] != null)
+			if (current.child.containsKey(letter))
 			{
-				current = current.child[letter];
+				current = current.child.get(letter);
 				if (current.isEnd)
 				{
 					count++;
-					if (letter == pfirst)
-					i -= psize; // Cobre caso de "ll" em "lllll".
-					e = 0;
+					i -= current.depth; // Cobre caso de "ll" em "lllll".
 				}
 			}
-			else if (current.child[letter] == null)
+			else if (!current.child.containsKey(letter))
 			{
+				i -= current.depth - 1; // Cobre caso de "llb" em "lllllb".
 				current = root;
-				i -= (e - 1); // Cobre caso de "llb" em "lllllb".
-				e = 0;
 			}
 		}
 		return count;

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015080</millis>
+  <sequence>0</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 23
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015086</millis>
+  <sequence>1</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 1 - Time: 1 - Found: 3
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015088</millis>
+  <sequence>2</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 2 - Time: 2 - Found: 2
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015090</millis>
+  <sequence>3</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 3 - Time: 2 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015091</millis>
+  <sequence>4</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 4 - Time: 1 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015092</millis>
+  <sequence>5</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 5 - Time: 1 - Found: 456
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:55</date>
+  <millis>1507597015104</millis>
+  <sequence>6</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 6 - Time: 12 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:56:57</date>
+  <millis>1507597017694</millis>
+  <sequence>7</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 0 - Time: 2590 - Found: 60000389
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:01</date>
+  <millis>1507597021297</millis>
+  <sequence>8</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 1 - Time: 3603 - Found: 39999967
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:04</date>
+  <millis>1507597024064</millis>
+  <sequence>9</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 2 - Time: 2767 - Found: 1
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:06</date>
+  <millis>1507597026067</millis>
+  <sequence>10</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 3 - Time: 2003 - Found: 10000160
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:08</date>
+  <millis>1507597028482</millis>
+  <sequence>11</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 4 - Time: 2415 - Found: 59999611
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:39</date>
+  <millis>1507597059108</millis>
+  <sequence>12</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 5 - Time: 30626 - Found: 1
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:41</date>
+  <millis>1507597061860</millis>
+  <sequence>13</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 6 - Time: 2752 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:41</date>
+  <millis>1507597061907</millis>
+  <sequence>14</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 0 - Time: 46 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:41</date>
+  <millis>1507597061954</millis>
+  <sequence>15</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 1 - Time: 47 - Found: 196155
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:42</date>
+  <millis>1507597062001</millis>
+  <sequence>16</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 2 - Time: 47 - Found: 4681
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:42</date>
+  <millis>1507597062057</millis>
+  <sequence>17</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 3 - Time: 56 - Found: 2
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:42</date>
+  <millis>1507597062111</millis>
+  <sequence>18</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 4 - Time: 53 - Found: 152
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:42</date>
+  <millis>1507597062155</millis>
+  <sequence>19</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 5 - Time: 44 - Found: 30875
+</message>
+</record>
+<record>
+  <date>2017-10-09T21:57:55</date>
+  <millis>1507597075890</millis>
+  <sequence>20</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 6 - Time: 13735 - Found: 0
+</message>
+</record>

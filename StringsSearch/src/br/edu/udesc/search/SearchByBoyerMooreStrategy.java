@@ -35,7 +35,7 @@ public class SearchByBoyerMooreStrategy extends ASearchStrategy {
      * Makes the jump table based on the mismatched character information.
      */
     private static int[] makeCharTable(String needle) {
-        final int ALPHABET_SIZE = 256;
+        final int ALPHABET_SIZE = 65536; // UTF-8
         int[] table = new int[ALPHABET_SIZE];
         for (int i = 0; i < table.length; ++i) {
             table[i] = needle.length();
