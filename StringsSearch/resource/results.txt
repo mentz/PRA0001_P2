@@ -1,12 +1,19 @@
+  <message>Strategy: SearchByAhoCorasickStrategy - Text: 0 - Test: 0 - Time: 2 - Found: 12
   <message>Strategy: SearchByAhoCorasickStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 12
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 0 - Time: 2 - Found: 23
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 23
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 1 - Time: 1 - Found: 3
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 2 - Time: 0 - Found: 2
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 2 - Time: 1 - Found: 2
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 3 - Time: 0 - Found: 0
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 3 - Time: 1 - Found: 0
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 4 - Time: 1 - Found: 0
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 5 - Time: 4 - Found: 456
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 6 - Time: 0 - Found: 0
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 0 - Test: 6 - Time: 1 - Found: 0
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 0 - Time: 137 - Found: 15001886
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 0 - Time: 138 - Found: 15001886
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 1 - Time: 755 - Found: 9999967
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 1 - Time: 756 - Found: 9999967
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 2 - Time: 47 - Found: 1
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 1 - Test: 3 - Time: 135 - Found: 2499436
@@ -20,40 +27,56 @@
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 2 - Test: 4 - Time: 2 - Found: 152
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 2 - Test: 5 - Time: 12 - Found: 30875
   <message>Strategy: SearchByBoyerMooreStrategy - Text: 2 - Test: 6 - Time: 1 - Found: 0
+  <message>Strategy: SearchByBoyerMooreStrategy - Text: 2 - Test: 6 - Time: 2 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 0 - Time: 2 - Found: 23
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 23
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 1 - Time: 2 - Found: 3
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 1 - Time: 3 - Found: 3
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 2 - Time: 2 - Found: 2
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 3 - Time: 0 - Found: 0
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 3 - Time: 1 - Found: 0
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 4 - Time: 0 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 4 - Time: 1 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 5 - Time: 0 - Found: 456
   <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 6 - Time: 1 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 0 - Time: 138 - Found: 15001886
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 1 - Time: 132 - Found: 9999967
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 2 - Time: 151 - Found: 1
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 2 - Time: 152 - Found: 1
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 3 - Time: 136 - Found: 2499436
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 3 - Time: 138 - Found: 2499436
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 4 - Time: 115 - Found: 14998114
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 4 - Time: 116 - Found: 14998114
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 5 - Time: 152 - Found: 1
   <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 6 - Time: 169 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 0 - Time: 16 - Found: 0
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 1 - Time: 15 - Found: 196155
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 1 - Time: 16 - Found: 196155
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 2 - Time: 15 - Found: 4681
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 3 - Time: 15 - Found: 2
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 4 - Time: 14 - Found: 152
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 4 - Time: 15 - Found: 152
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 5 - Time: 15 - Found: 30875
   <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 6 - Time: 13 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 0 - Time: 0 - Found: 23
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 1 - Time: 0 - Found: 3
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 2 - Time: 0 - Found: 2
+  <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 3 - Time: 0 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 3 - Time: 1 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 4 - Time: 0 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 5 - Time: 0 - Found: 456
   <message>Strategy: SearchByNaiveStrategy - Text: 0 - Test: 6 - Time: 0 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 0 - Time: 159 - Found: 15001886
+  <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 1 - Time: 378 - Found: 9999967
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 1 - Time: 406 - Found: 9999967
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 2 - Time: 417 - Found: 1
+  <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 3 - Time: 161 - Found: 2499436
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 3 - Time: 163 - Found: 2499436
+  <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 4 - Time: 158 - Found: 14998114
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 4 - Time: 159 - Found: 14998114
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 5 - Time: 3409 - Found: 1
+  <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 5 - Time: 3416 - Found: 1
+  <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 6 - Time: 163 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 1 - Test: 6 - Time: 166 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 2 - Test: 0 - Time: 13 - Found: 0
   <message>Strategy: SearchByNaiveStrategy - Text: 2 - Test: 1 - Time: 14 - Found: 196155
@@ -62,3 +85,24 @@
   <message>Strategy: SearchByNaiveStrategy - Text: 2 - Test: 4 - Time: 12 - Found: 152
   <message>Strategy: SearchByNaiveStrategy - Text: 2 - Test: 5 - Time: 12 - Found: 30875
   <message>Strategy: SearchByNaiveStrategy - Text: 2 - Test: 6 - Time: 12 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 0 - Time: 2 - Found: 23
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 1 - Time: 1 - Found: 3
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 2 - Time: 1 - Found: 2
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 3 - Time: 3 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 4 - Time: 0 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 5 - Time: 1 - Found: 456
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 6 - Time: 11 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 0 - Time: 721 - Found: 15001886
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 1 - Time: 971 - Found: 9999967
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 2 - Time: 718 - Found: 1
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 3 - Time: 526 - Found: 2499436
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 4 - Time: 624 - Found: 14998114
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 5 - Time: 7595 - Found: 1
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 6 - Time: 701 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 0 - Time: 47 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 1 - Time: 47 - Found: 196155
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 2 - Time: 47 - Found: 4681
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 3 - Time: 58 - Found: 2
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 4 - Time: 52 - Found: 152
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 5 - Time: 42 - Found: 30875
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 6 - Time: 14181 - Found: 0

@@ -2,20 +2,20 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015080</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793236</millis>
   <sequence>0</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 23
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 0 - Time: 2 - Found: 23
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015086</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793242</millis>
   <sequence>1</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
@@ -26,44 +26,44 @@
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015088</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793244</millis>
   <sequence>2</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 2 - Time: 2 - Found: 2
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 2 - Time: 1 - Found: 2
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015090</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793247</millis>
   <sequence>3</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 3 - Time: 2 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 3 - Time: 3 - Found: 0
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015091</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793247</millis>
   <sequence>4</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 4 - Time: 1 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 4 - Time: 0 - Found: 0
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015092</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793248</millis>
   <sequence>5</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
@@ -74,116 +74,116 @@
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:55</date>
-  <millis>1507597015104</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793259</millis>
   <sequence>6</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 6 - Time: 12 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 0 - Test: 6 - Time: 11 - Found: 0
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:56:57</date>
-  <millis>1507597017694</millis>
+  <date>2017-10-09T22:26:33</date>
+  <millis>1507598793980</millis>
   <sequence>7</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 0 - Time: 2590 - Found: 60000389
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 0 - Time: 721 - Found: 15001886
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:01</date>
-  <millis>1507597021297</millis>
+  <date>2017-10-09T22:26:34</date>
+  <millis>1507598794951</millis>
   <sequence>8</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 1 - Time: 3603 - Found: 39999967
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 1 - Time: 971 - Found: 9999967
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:04</date>
-  <millis>1507597024064</millis>
+  <date>2017-10-09T22:26:35</date>
+  <millis>1507598795670</millis>
   <sequence>9</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 2 - Time: 2767 - Found: 1
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 2 - Time: 718 - Found: 1
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:06</date>
-  <millis>1507597026067</millis>
+  <date>2017-10-09T22:26:36</date>
+  <millis>1507598796196</millis>
   <sequence>10</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 3 - Time: 2003 - Found: 10000160
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 3 - Time: 526 - Found: 2499436
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:08</date>
-  <millis>1507597028482</millis>
+  <date>2017-10-09T22:26:36</date>
+  <millis>1507598796820</millis>
   <sequence>11</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 4 - Time: 2415 - Found: 59999611
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 4 - Time: 624 - Found: 14998114
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:39</date>
-  <millis>1507597059108</millis>
+  <date>2017-10-09T22:26:44</date>
+  <millis>1507598804415</millis>
   <sequence>12</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 5 - Time: 30626 - Found: 1
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 5 - Time: 7595 - Found: 1
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:41</date>
-  <millis>1507597061860</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805116</millis>
   <sequence>13</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 6 - Time: 2752 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 1 - Test: 6 - Time: 701 - Found: 0
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:41</date>
-  <millis>1507597061907</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805164</millis>
   <sequence>14</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 0 - Time: 46 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 0 - Time: 47 - Found: 0
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:41</date>
-  <millis>1507597061954</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805211</millis>
   <sequence>15</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
@@ -194,8 +194,8 @@
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:42</date>
-  <millis>1507597062001</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805258</millis>
   <sequence>16</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
@@ -206,50 +206,302 @@
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:42</date>
-  <millis>1507597062057</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805317</millis>
   <sequence>17</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 3 - Time: 56 - Found: 2
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 3 - Time: 58 - Found: 2
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:42</date>
-  <millis>1507597062111</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805369</millis>
   <sequence>18</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 4 - Time: 53 - Found: 152
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 4 - Time: 52 - Found: 152
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:42</date>
-  <millis>1507597062155</millis>
+  <date>2017-10-09T22:26:45</date>
+  <millis>1507598805411</millis>
   <sequence>19</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 5 - Time: 44 - Found: 30875
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 5 - Time: 42 - Found: 30875
 </message>
 </record>
 <record>
-  <date>2017-10-09T21:57:55</date>
-  <millis>1507597075890</millis>
+  <date>2017-10-09T22:26:59</date>
+  <millis>1507598819593</millis>
   <sequence>20</sequence>
   <logger>br.edu.udesc.search.StringSearchTest</logger>
   <level>FINE</level>
   <class>br.edu.udesc.search.StringSearchTest</class>
   <method>testSuite</method>
   <thread>1</thread>
-  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 6 - Time: 13735 - Found: 0
+  <message>Strategy: SearchByRabinKarpStrategy - Text: 2 - Test: 6 - Time: 14181 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824686</millis>
+  <sequence>21</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 0 - Time: 3 - Found: 23
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824688</millis>
+  <sequence>22</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 1 - Time: 2 - Found: 3
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824690</millis>
+  <sequence>23</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 2 - Time: 2 - Found: 2
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824691</millis>
+  <sequence>24</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 3 - Time: 1 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824691</millis>
+  <sequence>25</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 4 - Time: 0 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824692</millis>
+  <sequence>26</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 5 - Time: 0 - Found: 456
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824693</millis>
+  <sequence>27</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 0 - Test: 6 - Time: 1 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824831</millis>
+  <sequence>28</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 0 - Time: 138 - Found: 15001886
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:04</date>
+  <millis>1507598824963</millis>
+  <sequence>29</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 1 - Time: 132 - Found: 9999967
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825115</millis>
+  <sequence>30</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 2 - Time: 151 - Found: 1
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825253</millis>
+  <sequence>31</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 3 - Time: 138 - Found: 2499436
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825369</millis>
+  <sequence>32</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 4 - Time: 116 - Found: 14998114
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825521</millis>
+  <sequence>33</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 5 - Time: 152 - Found: 1
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825690</millis>
+  <sequence>34</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 1 - Test: 6 - Time: 169 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825706</millis>
+  <sequence>35</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 0 - Time: 16 - Found: 0
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825722</millis>
+  <sequence>36</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 1 - Time: 16 - Found: 196155
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825737</millis>
+  <sequence>37</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 2 - Time: 15 - Found: 4681
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825752</millis>
+  <sequence>38</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 3 - Time: 15 - Found: 2
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825767</millis>
+  <sequence>39</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 4 - Time: 14 - Found: 152
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825782</millis>
+  <sequence>40</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 5 - Time: 15 - Found: 30875
+</message>
+</record>
+<record>
+  <date>2017-10-09T22:27:05</date>
+  <millis>1507598825796</millis>
+  <sequence>41</sequence>
+  <logger>br.edu.udesc.search.StringSearchTest</logger>
+  <level>FINE</level>
+  <class>br.edu.udesc.search.StringSearchTest</class>
+  <method>testSuite</method>
+  <thread>1</thread>
+  <message>Strategy: SearchByKMPStrategy - Text: 2 - Test: 6 - Time: 13 - Found: 0
 </message>
 </record>
