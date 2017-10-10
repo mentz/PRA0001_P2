@@ -32,7 +32,7 @@ public class StringSearchTest {
 	public void setup()
 	{
 		sources[0] = "resource/lipsum.txt";
-		sources[1] = "resource/aaaaaaaabbbbbbbb.txt";
+		sources[1] = "resource/aaaabbbb.txt";
 		sources[2] = "resource/WarAndPeace.txt";
 		
 		File fi;
